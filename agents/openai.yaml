@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "Proteus Schematic Design"
+  short_description: "Design, inspect, and export real Proteus 8 schematics"
+  default_prompt: "Use the Proteus schematic workflow to place devices, wire STM32 hardware, prepare simulation, and export report-ready figures."
