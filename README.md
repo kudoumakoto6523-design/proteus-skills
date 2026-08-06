@@ -1,7 +1,8 @@
 # Proteus Schematic Design Skill
 
 An open-source Codex skill for designing, inspecting, simulating, and documenting real electronic schematics in Proteus 8/ISIS.
-
+## Things to Say
+This is my first time uploading a skill, which is related to circut designing. There are many other simulation skills, while few focus on Proteus, which is widely used by college students majoring in EEE. Although the skill, right now, is primary, which does not contain skills to draw PCBs, or even dosen't have some necessary skills such as running the simulation, etc, its ability is up to our joint cooperation, up to all very talented developers who is willing to contribute their own idea. Thank you for your interest to this project. 
 ## What it does
 
 This skill helps Codex:
