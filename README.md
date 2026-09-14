@@ -91,6 +91,14 @@ Proteus Skills 提供原理图编辑、单片机仿真、按钮与开关控制�
 | [references/api-workflows.md](references/api-workflows.md) | 工程编辑、网表、固件和测量示例 |
 | [references/interactive-controls.md](references/interactive-controls.md) | 按钮与开关的绑定、时序和响应验证 |
 | [references/distribution.md](references/distribution.md) | 库的安装、版本匹配、迁移和独立分发约定 |
+| [references/evidence-contract.md](references/evidence-contract.md) | 区分结构验证、运行验证和阻断结果的证据约定 |
+
+### 验证证据
+
+SDF 或文件重开成功不等于仿真成功。交付前可以用
+`py -3.12 scripts/validate_evidence.py verification.json` 检查证据清单；需要
+真实运行结果时加上 `--require-runtime`。校验器会拒绝带运行时错误的
+`runtime_verified` 声明，并保留 `blocked` / `not_run` 状态。
 
 ## 许可证
 
