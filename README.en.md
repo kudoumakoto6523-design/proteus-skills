@@ -100,6 +100,16 @@ The skill instructions and detailed workflow references are currently written in
 | [references/api-workflows.md](references/api-workflows.md) | Examples for project editing, netlists, firmware, and measurements |
 | [references/interactive-controls.md](references/interactive-controls.md) | Button and switch binding, timing, and response verification |
 | [references/distribution.md](references/distribution.md) | Library installation, version matching, migration, and separate distribution conventions |
+| [references/evidence-contract.md](references/evidence-contract.md) | Evidence rules for structural checks, runtime checks, and blocked results |
+
+### Verification evidence
+
+An exported SDF or a successful reopen does not prove that a simulation ran.
+Before delivery, validate an evidence manifest with
+`py -3.12 scripts/validate_evidence.py verification.json`; add
+`--require-runtime` when a real runtime result is required. The validator
+rejects `runtime_verified` when runtime errors are present and preserves
+`blocked` / `not_run` as explicit outcomes.
 
 ## License
 
