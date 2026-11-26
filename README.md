@@ -1,5 +1,9 @@
 # Proteus Skills
 
+<!-- yarkr:badges:start -->
+[![Indexed on Yarkr](https://api.yarkr.com/functions/v1/api/api/v1/badges/repos/kudoumakoto6523-design/proteus-skills/version.svg)](https://yarkr.com/arks/kudoumakoto6523-design/proteus-skills)
+<!-- yarkr:badges:end -->
+
 **简体中文** | [English](README.en.md)
 
 <p align="center">
@@ -103,3 +107,36 @@ SDF 或文件重开成功不等于仿真成功。交付前可以用
 ## 许可证
 
 本仓库的原创技能文档和示例采用 [MIT License](LICENSE)。Python 库单独分发；Proteus 软件、器件模型、第三方样例和固件适用各自的许可证。
+
+<!-- yarkr:install:start -->
+## Install with Yarkr
+
+This repo is indexed on [Yarkr](https://yarkr.com/arks/kudoumakoto6523-design/proteus-skills) as the ark [kudoumakoto6523-design/proteus-skills](https://yarkr.com/arks/kudoumakoto6523-design/proteus-skills), so its skills install into Claude Code, Codex, Cursor and other agent harnesses with one command.
+
+### CLI
+
+Install the whole ark, which Yarkr keeps equal to this repo:
+
+```bash
+npx yarkr-cli sync kudoumakoto6523-design/proteus-skills
+```
+
+Or add individual skills:
+
+```bash
+npx yarkr-cli add skill:kudoumakoto6523-design/proteus-skills/proteus-schematic
+npx yarkr-cli add skill:kudoumakoto6523-design/proteus-skills/proteus-skills
+```
+
+No Node.js? `curl -fsSL https://yarkr.com/install.sh | sh` (macOS, Linux) or `irm https://yarkr.com/install.ps1 | iex` (Windows PowerShell) installs `yarkr` as a standalone binary; then type `yarkr` in place of `npx yarkr-cli`.
+
+### MCP
+
+Connect your agent to the ark over MCP:
+
+```bash
+npx yarkr-cli mcp add kudoumakoto6523-design/proteus-skills
+```
+
+Or point any MCP client at `https://api.yarkr.com/functions/v1/api/mcp/o/kudoumakoto6523-design/proteus-skills`.
+<!-- yarkr:install:end -->
